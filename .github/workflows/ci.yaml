@@ -13,4 +13,5 @@ jobs:
         with:
           node-version: '14.16.0'
       - run: npm i
+      - run: npm --version
       - run: time tar czf /tmp/artifact.tgz node_modules
