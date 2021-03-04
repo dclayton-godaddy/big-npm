@@ -1,0 +1,11 @@
+node:
+  version: 14.16.0
+
+autobuild: false
+
+workflows:
+  master:
+    build:
+      tasks:
+        - nvm: npm i
+        - shell: time tar czf /tmp/artifact.tgz node_modules
