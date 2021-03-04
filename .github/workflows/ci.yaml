@@ -15,3 +15,4 @@ jobs:
       - run: npm i
       - run: npm --version
       - run: time tar czf /tmp/artifact.tgz node_modules
+      - run: docker build -t dclayton .

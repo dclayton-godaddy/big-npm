@@ -11,3 +11,4 @@ workflows:
       tasks:
         - nvm: npm i
         - shell: time tar czf /tmp/artifact.tgz node_modules
+        - shell: docker build -t dclayton .
