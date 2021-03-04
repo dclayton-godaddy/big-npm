@@ -1,4 +1,4 @@
-#!{ organization: PC }
+#!{ shared_url: git@github.secureserver.net:PC/cicd-shared.git }
 node:
   version: 14.16.0
 
