@@ -55,7 +55,6 @@
     "multipipe": "^3.0.1",
     "newrelic": "^6.13.1",
     "p-limit": "^3.1.0",
-    "publicsuffix-data": "^1.0.0",
     "punycode": "^2.1.1",
     "request": "^2.88.2",
     "requestretry": "^1.6.0",
